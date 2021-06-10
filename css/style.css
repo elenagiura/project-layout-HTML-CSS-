@@ -628,12 +628,12 @@ footer section.lvl-one {
 
        /*MARGINS*/
         section.lvl-one {
-            padding: 30px 30px;
+            padding: 20px 20px;
         }
 
         header section div:nth-child(2) {
             text-align: center;
-            margin: 30px 0;
+            margin: 20px 0;
         }
 
         main section.sec-three section {
@@ -641,7 +641,7 @@ footer section.lvl-one {
         }
 
         #team {
-            margin: 30px 0 15px;
+            margin: 20px 0 15px;
         }
 
         h1 {
@@ -724,6 +724,47 @@ footer section.lvl-one {
 }
 
 @media all and (max-width: 500px) {
+    header button{
+        margin:8px;
+    }
+
+    main section.lvl-one.sec-one article {
+        margin: 15px 0;
+    }
+
+    main .sec-three.lvl-one section {
+        margin: 10px auto;
+    }
+
+    main .sec-three.lvl-one section article {
+        margin: 10px 0;
+    }
+
+    #team {
+        width: 290px;
+        margin: auto;
+    }
+
+    #team article {
+        margin: 10px 0;
+        min-height:194px;
+    }
+
+    #team h2 {
+        margin-bottom: 3px;
+    }
+
+    #team p {
+        margin-top: 5px;
+    }
+
+    #team article.pearson img {
+        width: 135px;
+    }
+
+    .lvl-one.sec-four aside:last-child {
+        right: 20px;
+    }
 
     p {
         line-height: 1.3;
